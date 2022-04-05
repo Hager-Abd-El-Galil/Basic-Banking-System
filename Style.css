@@ -1,0 +1,200 @@
+*{
+    padding: 0%;
+    margin: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    overflow-x: hidden;
+}
+nav{
+    float: left;
+    height: 10vh;
+    width: 100%;
+    position:fixed;
+    z-index: 100;
+    background-color:   rgb(0, 0, 5);
+}
+nav ul{
+    float: right;
+    width:25%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    font-family: 'Nunito';
+}
+nav ul li{
+    list-style: none;
+    float: left;
+    margin-right: 15%;
+    color: #fff;
+    font-size: 17px;
+    background-color: transparent !important;
+    cursor: pointer;
+    transition:all 0.8s;
+}
+nav ul li:hover{
+    color: rgb(122, 122, 233);
+}
+.Home{
+    color:rgb(122, 122, 233);
+}
+nav h1{
+    font-weight: 900;
+    font-size: 30px;
+    color: #fff;
+    padding-top: 1.3%;
+    padding-left: 10%;
+    padding-bottom: 1.5%;
+    cursor: pointer;
+   
+}
+nav img{
+    float:left;
+    cursor: pointer;
+    margin-left: 5%;
+    margin-top:1%;
+   
+}
+.header {
+    font-family: montserrat, sans-serif;
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    text-align: center;
+    color: #fff;
+    background-image:url("home.webp");
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    
+}
+.overlay-bg{
+    background-color: rgba(0, 0, 0, 0.88);
+    width: 100%;
+    height: 100%;
+}
+.header .welcome{
+    
+    font-size: 30px;
+    padding: 2%;
+    color:rgb(122, 122, 233);
+    font-weight: 300;
+    padding-top: 30vh;
+   
+}
+.header .quote-icon{
+    color:rgb(122, 122, 233);
+    font-size:2.5em; 
+}
+.header .quote{
+    
+    font-size: 30px;
+    font-weight: 300;
+   
+}
+.header .view-customers-btn{
+
+    background-color: transparent;
+    border-radius: 30px;
+    border: white solid;
+    width: 180px;
+    height: 50px;
+    margin: 3%;
+    color: #fff;
+    font-size: medium;
+    font-weight: 300;
+    transition: all 0.8s;
+    cursor: pointer;
+}
+.header .view-customers-btn:hover{
+    background-color: #fff;
+    color: black;
+}
+.footer{
+    clear: both;
+}
+.footer .icon ul{
+     list-style: none;
+     float: right;
+     width: 55%;
+     padding-top: 1%;
+     padding-bottom: 0.5%;}
+     
+.footer .icon ul li{
+    list-style: none;
+    float: left;
+    margin-right: 2.8%;
+    color: cornsilk;
+    cursor:pointer;
+}
+.footer p{
+    color: white;
+    text-align: center;
+    padding: 3%;
+    background-color:black;
+}
+.contact{
+    clear: both;
+    padding-top: 8%;
+    background-image: url("bg.jpg");
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    height: 120vh;
+}
+.contact p{
+    color: gray;
+    font-size: large;
+}  
+.contact h5{
+    padding-top: 10%;
+    font: 2.5em sans-serif;
+    color:rgb(122, 122, 233)
+}
+.contact .call{
+    float: right; 
+    width: 80%;
+    margin: 2%;
+}
+.contact .call .social{
+    float: left;
+    margin: 7%;
+
+}
+.contact .call .social .icon{
+    color: rgb(122, 122, 233);
+    font-size:2.5em;
+}
+.contact .call .social p{
+    color: gray;
+}
+.contact .call .social p b{
+    color: black;
+} 
+.contact .form{
+    clear: both;
+    width: 45%;
+    height: 90vh;
+    margin-right: 3%;
+}
+.About{
+    clear: both;
+    padding-top: 8%;
+    background-image: url("bg.jpg");
+    font-family: montserrat, sans-serif;
+    text-align: center;
+    height: 100vh;
+}
+.About p{
+    color: gray;
+    font-size: large;
+}  
+.About h5{
+    padding-top: 8%;
+    font: 2.5em sans-serif;
+    color:rgb(122, 122, 233);
+    padding-bottom: 5%;
+}
+
+
+
